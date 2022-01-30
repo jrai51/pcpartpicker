@@ -23,7 +23,7 @@ class Scraper:
 
     def __init__(self, region: str = "us") -> None:
         self.region: str = region
-        self.base_url: str = "https://jonathanvusich.github.io/pcpartpicker-scraper/"
+        self.base_url: str = "https://relativelyfine.github.io/scraper/"
 
     def generate_product_url(self, part: str) -> str:
         return f"{self.base_url}{self.region}/{part}"
